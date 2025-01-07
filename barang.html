@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleb.css">
+    <title>Aplikasi Pengiriman Barang</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Aplikasi Pengiriman Barang</h1>
+        <form id="shippingForm">
+            <input type="text" id="recipientName" placeholder="Nama Penerima" required>
+            <input type="text" id="address" placeholder="Alamat" required>
+            <input type="text" id="packageDetails" placeholder="Detail Paket" required>
+            <button type="submit">Kirim</button>
+        </form>
+        <h2>Daftar Pengiriman</h2>
+        <ul id="shippingList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

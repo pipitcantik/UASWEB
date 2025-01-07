@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4b2c83;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.containeri {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.containera {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+.containers {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #1c0235;
+    color: #fffafa;
+    padding: 10px 0;
+    vertical-align: baseline(default);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0eaea;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4b2c83;
+}
+
+.banner {
+    background: url(kota.jpg) no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+    position: relative;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+    position: relative;
+    z-index: 1;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+.product-button {
+
+    display: inline-block;
+
+    padding: 12px 24px;
+
+    background-color: #4b2c83;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    font-family: Arial, sans-serif;
+
+    border-radius: 8px;
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+    margin-top: 20px;
+
+  }
+  .product-button:hover {
+
+    background-color: #1c0235;
+
+  }
+
+.services {
+    padding: 20px 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service {
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #4b2c83;
+    border-radius: 15px;
+    transition: transform 0.10s, box-shadow 0.5s;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #f7f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #4b2c83;
+}
+
+
+.service {
+    margin: 20px 0;
+}
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: 5px 10%;
+}
+.logo {
+    width: 100px; /* Atur ukuran logo sesuai kebutuhan */
+    height: 100px;
+    margin-right: 10px; /* Jarak antara logo dan nama posisi */
+}
+.gambar {
+    width: 100px; 
+    height: 50px;
+    margin-right: 10px;
+}
+.conter {
+    display: flex; /* Menggunakan Flexbox */
+    justify-content: space-between; /* Jarak antar kotak */
+}
+.box {
+    background-color: #f6f4f8; /* Warna latar belakang */
+    color: #111111; /* Warna teks */
+    padding: 20px; /* Ruang di dalam kotak */
+    margin: 10px; /* Jarak antar kotak */
+    flex: 1; /* Setiap kotak akan memiliki ukuran yang sama */
+    text-align: center; /* Teks di tengah */
+    border-radius: 5px; /* Sudut melengkung */
+    border: 1px solid #4b2c83;
+    border-radius: 15px;
+    transition: transform 0.10s, box-shadow 0.5s;
+}
+.service:hover {}
+   

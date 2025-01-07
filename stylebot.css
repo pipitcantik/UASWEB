@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; /* Jarak antara tombol */
+}
+
+.btn {
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Sudut melengkung */
+    padding: 15px 30px; /* Padding atas-bawah dan kiri-kanan */
+    font-size: 16px; /* Ukuran font */
+    cursor: pointer; /* Menunjukkan bahwa tombol dapat diklik */
+    transition: background-color 0.3s, transform 0.3s; /* Transisi untuk efek hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+    transform: translateY(-2px); /* Mengangkat tombol saat hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Warna latar belakang tombol sekunder */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Warna latar belakang saat hover untuk tombol sekunder */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007bff;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
